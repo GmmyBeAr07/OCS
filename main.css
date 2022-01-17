@@ -1,0 +1,26 @@
+body {
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/stretched-1920-1080-1172956.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  backface-visibility:visible;
+  background-size: 100% 100%;
+}
+
+#products {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+img {
+  height: 200px !important;
+  object-fit: cover;
+}
+
+.card {
+  width: calc((100% / 4) - 15px);
+  min-width: 300px;
+}
+
+.card-title {
+  text-transform: capitalize;
+}
